@@ -1,0 +1,12 @@
+Id,IsDeleted,MasterRecordId,Name,Type,ParentId,BillingStreet,BillingCity,BillingState,BillingPostalCode,BillingCountry,BillingLatitude,BillingLongitude,BillingGeocodeAccuracy,ShippingStreet,ShippingCity,ShippingState,ShippingPostalCode,ShippingCountry,ShippingLatitude,ShippingLongitude,ShippingGeocodeAccuracy,Phone,Fax,AccountNumber,Website,Sic,Industry,AnnualRevenue,NumberOfEmployees,Ownership,TickerSymbol,Description,Rating,Site,OwnerId,CreatedDate,CreatedById,LastModifiedDate,LastModifiedById,SystemModstamp,LastActivityDate,Jigsaw,JigsawCompanyId,CleanStatus,AccountSource,DunsNumber,Tradestyle,NaicsCode,NaicsDesc,YearStarted,SicDesc,DandbCompanyId,CustomerPriority__c,SLA__c,Active__c,NumberofLocations__c,UpsellOpportunity__c,SLASerialNumber__c,SLAExpirationDate__c
+,0,,Bulk api Account,Customer - Direct,,525 S. Lexington Ave,Burlington,NC,27215,USA,,,,,,,,,,,,(336) 222-7000,(336) 222-8000,CD656092,www.burlington.com,546732,Apparel,350000000,9000,Public,BTXT,,Warm,,0057F000002Rx2KQAS,12/21/2017 8:18,0057F000002Rx2KQAS,12/21/2017 8:18,0057F000002Rx2KQAS,12/21/2017 8:18,,,,Pending,,,,,,,,000000000000000AAA,,Silver,,6,Maybe,5367,1/15/2018 0:00
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:camel="http://camel.apache.org/schema/blueprint"
+	xmlns:cm="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.1.0"
+	xsi:schemaLocation="
+       http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd
+       http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint.xsd
+       http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.1.0 
+       http://aries.apache.org/schemas/blueprint-cm/blueprint-cm-1.1.0.xsd">
+
+	
+	 <cm:property-placeholder id="cfgProperties" persistent-id="org.camelSalesforceEx"/>
+ 	 <bean id="salesforce"
+		class="org.apache.camel.component.salesforce.SalesforceComponent">
+		<property name="loginConfig">
+			<bean class="org.apache.camel.component.salesforce.SalesforceLoginConfig">
+				<property name="loginUrl" value="${LoginUrl}"></property>
+				<property name="clientId" value="${ClientId}"/>
+				<property name="clientSecret" value="${ClientSecret}" />
+				<property name="userName" value="${UserName}" />
+				<property name="password" value="${Password}" />
+			</bean>
+		</property>
+		<property name="packages">
+			<array>
+				<value>org.apache.camel.salesforce.dto</value>
+			</array>
+		</property>
+	</bean>
+	
+	<bean id="csvSplitterProcessor" class="com.mycompany.camel.blueprint.CSVSplitterProcessor">
+	</bean>
+
+	<camelContext trace="true" id="blueprintContext"
+		xmlns="http://camel.apache.org/schema/blueprint">
+		<propertyPlaceholder location="file:${karaf.etc}/org.camelSalesforceEx.cfg" id="properties"/> 
+	 	<packageScan>
+			<package>com.mycompany.camel.blueprint</package>
+		</packageScan>
+	</camelContext>
+
+</blueprint>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sObjects xmlns="http://www.force.com/2009/06/asyncapi/dataload">
+   <sObject>
+      <External_Id__c>12345</External_Id__c>
+      <Name>Kurivella</Name>
+      <Description>Industrial Cleaning Supply Company</Description>
+      <AccountNumber>ABC12345</AccountNumber>
+      <Phone>94949494</Phone>
+      <Site>noida</Site>
+   </sObject>
+   <sObject>
+      <External_Id__c>12346</External_Id__c>
+      <Name>nuli</Name>
+      <Description>Xavient Info system</Description>
+      <AccountNumber>ABC12346</AccountNumber>
+      <Phone>94949493</Phone>
+      <Site>hyd</Site>
+   </sObject>
+</sObjects>
